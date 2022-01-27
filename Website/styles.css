@@ -1,0 +1,165 @@
+/* * {
+  border: 1px red solid;
+} */
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin: 0;
+
+}
+
+
+
+/* start page css */
+
+#start {
+  height: 100vh;
+  background-size: cover;
+  text-align: center;
+  background: black;
+  font-size: 150px;
+
+}
+
+
+#start a {
+  text-decoration: none;
+  position: relative;
+  top: 35%;
+  font-family: 'Zen Maru Gothic', sans-serif;
+  font-weight: 500;
+  color: white;
+}
+
+
+
+/* nav bar css */
+
+#nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  color: black;
+}
+
+#nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#nav li {
+  display: inline-block;
+  margin:0;
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Zen Maru Gothic', sans-serif;
+  letter-spacing: 2px;
+
+
+}
+
+#nav a {
+  text-decoration: none;
+	font-size: 30px;
+	line-height: 1.3em;
+  color: white;
+}
+
+
+/* content css */
+#home-page {
+  height: 950px;
+  background-color: grey;
+}
+#project-page {
+  height: 950px;
+  background-color: black;
+}
+#resume-page {
+  height: 950px;
+  background-color: grey;
+
+}
+#bio-page {
+  height: 950px;
+  background-color: black;
+
+}
+#fun-page {
+  height: 930px;
+  background-color: grey;
+
+}
+
+/* mobile - samsung / iphone / other tablets working for now*/
+@media screen and (max-width: 600px) {
+  #start {
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    background: black;
+    font-size: 100px;
+
+  }
+
+
+  #start a {
+    text-decoration: none;
+    position: relative;
+    top: 35%;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    color: white;
+  }
+
+  #nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    padding: 0;
+    background-color: black;
+    color: black;
+  }
+
+  #nav ul {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+  }
+
+  #nav li {
+    margin: 0;
+    padding: 7px;
+    display: flex;
+    justify-content: space-around;
+    gap: 12px;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    letter-spacing: 1px;
+  }
+
+  #nav a {
+    text-decoration: none;
+  	font-size: 16px;
+  	/* line-height: 1.3em; */
+    color: white;
+  }
+
+
+}
