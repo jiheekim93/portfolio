@@ -156,7 +156,7 @@ body {
 
 .bio-carousel-container {
 	width: 70%;
-  height: 50%;
+  height: 70%;
 	display: flex;
 	justify-content: space-around;
 }
@@ -173,33 +173,77 @@ body {
 	border-radius: 10px;
 	display: none;
   font-family: 'Montserrat', sans-serif;
-
 }
 
 .bio-text-box p:first-of-type {
 	display: block;
 }
 
-.carousel-button {
+.bio-button {
 	align-self: center;
 	background: #FFFFFF;
   padding: 10px;
 	border-radius: 50%;
 	text-align: center;
 }
-.carousel-button:hover {
+
+.bio-button:hover {
 	cursor: pointer;
 	color: red;
 }
 
-.bio-text-box p:first-of-type {
 
-}
 
 #fun-page {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: wrap;
+  align-items: center;
+  flex-direction: row;
   height: 930px;
   background-color: black;
 
+}
+
+.fun-carousel-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+	width: 70%;
+  height: 65%;
+}
+
+.fun-img-box {
+	width: 70%;
+	background: #000000;
+	padding: 10px;
+	box-shadow: -2px -2px  #FFFFFF;
+}
+
+.fun-img-box img {
+	width: 100%;
+	display: none;
+  border: 2px solid black;
+
+}
+
+.fun-img-box img:first-of-type {
+	display: block;
+  object-fit: contain;
+  border: 2px solid black;
+}
+
+.fun-button {
+	align-self: center;
+	background: #FFFFFF;
+  padding: 10px;
+	border-radius: 50%;
+	text-align: center;
+}
+
+.fun-button:hover {
+	cursor: pointer;
+	color: red;
 }
 
 

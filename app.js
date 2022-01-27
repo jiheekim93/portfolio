@@ -46,6 +46,33 @@ const $biography = () => {
 
 }
 
+const $fun = () => {
+  let currentImgIndex = 0;
+  let currentImgBox = $('.fun-img-box').children().length - 1
+
+  $('.next').on('click', () => {
+    $('.fun-img-box').children().eq(currentImgIndex).css('display', 'none')
+
+    if (currentImgIndex < currentImgBox) {
+        currentImgIndex ++
+    } else {
+      currentImgIndex = 0
+    }
+  $('.fun-img-box').children().eq(currentImgIndex).css('display', 'block')
+  })
+  $('.previous').on('click',() => {
+    $('.fun-img-box').children().eq(currentImgIndex).css('display', 'none')
+
+    if (currentImgIndex > 0) {
+      currentImgIndex --
+    } else {
+      currentImgIndex = currentImgBox
+    }
+    $('.fun-img-box').children().eq(currentImgIndex).css('display', 'block')
+  })
+
+}
+
 
 
 $(() => {
@@ -53,6 +80,6 @@ $(() => {
   $myResumePhoto()
   $myResume()
   $biography()
-
+  $fun()
 
 })
