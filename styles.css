@@ -43,19 +43,28 @@ body {
   color: white;
 }
 
-.click-button {
+.click-button1 {
   display: flex;
   justify-content: center;
   position: relative;
-  top: 35%;
+  top: 37%;
+  font-size: 18px;
+  letter-spacing: 3px;
+}
+
+.click-button2 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 38%;
   font-size: 20px;
   letter-spacing: 3px;
 }
 
-#start p {
-  text-decoration: none;
+
+.pronounce {
   position: relative;
-  top: 36%;
+  top: 38%;
   font-family: 'Montserrat', sans-serif;
   font-style: italic;
   font-weight: 200;
