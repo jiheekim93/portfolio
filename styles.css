@@ -6,6 +6,7 @@
 
 html {
   scroll-behavior: smooth;
+  background-color: black;
 }
 
 body {
@@ -28,6 +29,7 @@ body {
   text-align: center;
   background: black;
   font-size: 150px;
+  background-color: black;
 
 }
 
@@ -41,14 +43,23 @@ body {
   color: white;
 }
 
+.click-button {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 35%;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
 #start p {
   text-decoration: none;
   position: relative;
-  top: 35%;
+  top: 38%;
   font-family: 'Montserrat', sans-serif;
   font-style: italic;
   font-weight: 200;
-  font-size: 18px;
+  font-size: 20px;
   color: white;
 }
 
@@ -69,7 +80,7 @@ body {
 #nav ul {
   list-style: none;
   margin: 0;
-  padding: 2px 0px 2px;
+  padding: 10px;
   background-color: black;
 
 }
@@ -97,11 +108,11 @@ body {
 
 /* content css */
 #home-page {
-  height: 950px;
+  height: 980vh;
   background-color: black;
 }
 #project-page {
-  height: 950px;
+  height: 100vh;
   background-color: black;
 }
 #resume-page {
@@ -110,7 +121,7 @@ body {
   flex-flow: wrap;
   align-items: center;
   flex-direction: column;
-  height: 950px;
+  height: 100vh;
   overflow: hidden;
   background-color: black;
 }
@@ -153,7 +164,7 @@ body {
   flex-flow: wrap;
   align-items: center;
   flex-direction: row;
-  height: 950px;
+  height: 100vh;
   background-color: black;
 
 }
@@ -208,7 +219,7 @@ body {
   flex-flow: wrap;
   align-items: center;
   flex-direction: row;
-  height: 930px;
+  height: 100vh;
   background-color: black;
 
 }
@@ -231,7 +242,6 @@ body {
 }
 
 .fun-img-box img {
-	max-width: 100%;
 	display: none;
   border: 10px solid white;
 
@@ -266,15 +276,22 @@ body {
 
 /* mobile - samsung / iphone / other tablets working for now*/
 @media screen and (max-width: 600px) {
+
   #start {
     height: 100vh;
     background-size: cover;
     text-align: center;
     background: black;
     font-size: 100px;
-
   }
 
+  .click-button {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 35%;
+    font-size: 18px;
+  }
 
   #start a {
     text-decoration: none;
@@ -283,6 +300,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: white;
   }
+
 
   #nav {
     position: -webkit-sticky;
@@ -338,7 +356,6 @@ body {
   }
 
   .fun-img-box img {
-  	width: 100%;
   	display: none;
     border: 3px solid white;
 
