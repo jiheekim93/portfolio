@@ -309,7 +309,9 @@ body {
   margin: 60px;
   color: white;
   position: relative;
-
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: 18px;
 }
 
 /* mobile - samsung / iphone / other tablets working for now*/
