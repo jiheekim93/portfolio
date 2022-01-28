@@ -19,32 +19,32 @@ const $myResume = () => {
 }
 
 
-const $biography = () => {
-  let currentTextIndex = 0;
-  let currentTextBox = $('.bio-text-box').children().length - 1
-
-  $('.next').on('click', () => {
-    $('.bio-text-box').children().eq(currentTextIndex).css('display', 'none')
-
-    if (currentTextIndex < currentTextBox) {
-        currentTextIndex ++
-    } else {
-      currentTextIndex = 0
-    }
-  $('.bio-text-box').children().eq(currentTextIndex).css('display', 'block')
-  })
-  $('.previous').on('click',() => {
-    $('.bio-text-box').children().eq(currentTextIndex).css('display', 'none')
-
-    if (currentTextIndex > 0) {
-      currentTextIndex --
-    } else {
-      currentTextIndex = currentTextBox
-    }
-    $('.bio-text-box').children().eq(currentTextIndex).css('display', 'block')
-  })
-
-}
+// const $biography = () => {
+//   let currentTextIndex = 0;
+//   let currentTextBox = $('.bio-text-box').children().length - 1
+//
+//   $('.next').on('click', () => {
+//     $('.bio-text-box').children().eq(currentTextIndex).css('display', 'none')
+//
+//     if (currentTextIndex < currentTextBox) {
+//         currentTextIndex ++
+//     } else {
+//       currentTextIndex = 0
+//     }
+//   $('.bio-text-box').children().eq(currentTextIndex).css('display', 'block')
+//   })
+//   $('.previous').on('click',() => {
+//     $('.bio-text-box').children().eq(currentTextIndex).css('display', 'none')
+//
+//     if (currentTextIndex > 0) {
+//       currentTextIndex --
+//     } else {
+//       currentTextIndex = currentTextBox
+//     }
+//     $('.bio-text-box').children().eq(currentTextIndex).css('display', 'block')
+//   })
+//
+// }
 
 const $fun = () => {
   let currentImgIndex = 0;
@@ -79,7 +79,7 @@ $(() => {
 
   $myResumePhoto()
   $myResume()
-  $biography()
+  // $biography()
   $fun()
 
 })
