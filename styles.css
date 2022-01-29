@@ -2,8 +2,6 @@
   border: 1px red solid;
 } */
 
-
-
 html {
   scroll-behavior: smooth;
   background-color: black;
@@ -16,10 +14,7 @@ body {
   -ms-user-select: none;
   user-select: none;
   margin: 0;
-
 }
-
-
 
 /* start page css */
 
@@ -30,9 +25,7 @@ body {
   background: black;
   font-size: 140px;
   background-color: black;
-
 }
-
 
 #start a {
   text-decoration: none;
@@ -60,7 +53,6 @@ body {
   font-size: 20px;
   letter-spacing: 3px;
 }
-
 
 .pronounce {
   position: relative;
@@ -144,7 +136,7 @@ body {
   flex-flow: column;
   width: 300px;
   position: relative;
-  bottom: 2%;
+  top: 1%;
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
   margin: 20px;
@@ -184,7 +176,7 @@ body {
 
 .bio-div{
   width: 80vh;
-  margin: 24px;
+  margin: 0;
   padding: 0;
   display: flex;
   justify-content: space-around;
@@ -195,7 +187,7 @@ body {
 
 .bio-div2{
   width: 80vh;
-  margin: 24px;
+  margin: 0;
   padding: 0;
   display: flex;
   justify-content: space-around;
@@ -205,9 +197,8 @@ body {
 }
 
 #bio-page img {
-  width: 30vh;
+  width: 25vh;
   position: relative;
-  top: 2vh;
 }
 
 #bio-page p {
@@ -216,49 +207,6 @@ body {
   font-weight: 200;
   font-size: 18px;
 }
-/* .bio-text-box {
-  color: white;
-}
-
-.bio-carousel-container {
-	width: 70%;
-  height: 70%;
-	display: flex;
-	justify-content: space-around;
-}
-.bio-text-box {
-	min-width: 80%;
-	background: #000000;
-	padding: 10px;
-	box-sizing: border-box;
-	box-shadow: 2px 2px #FFFFFF;
-}
-
-.bio-text-box p {
-	width: 100%;
-	border-radius: 10px;
-	display: none;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.bio-text-box p:first-of-type {
-	display: block;
-}
-
-.bio-button {
-	align-self: center;
-	background: #FFFFFF;
-  padding: 10px;
-	border-radius: 50%;
-	text-align: center;
-}
-
-.bio-button:hover {
-	cursor: pointer;
-	color: red;
-} */
-
-
 
 #fun-page {
   display: flex;
@@ -266,9 +214,8 @@ body {
   flex-flow: wrap;
   align-items: center;
   flex-direction: row;
-  height: 105vh;
+  height: 100vh;
   background-color: black;
-
 }
 
 .fun-carousel-container {
@@ -277,7 +224,6 @@ body {
 	width: 60%;
   height: 65%;
   position: relative;
-  top: 8%;
 }
 
 .fun-img-box {
@@ -285,13 +231,11 @@ body {
   justify-content: center;
 	background: #000000;
 	padding: 10px;
-
 }
 
 .fun-img-box img {
 	display: none;
   border: 10px solid white;
-
 }
 
 .fun-img-box img:first-of-type {
@@ -314,10 +258,12 @@ body {
 .fun-text {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  margin: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin: 0;
   color: white;
   position: relative;
+  bottom: 10vh;
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
   font-size: 18px;
@@ -394,6 +340,306 @@ body {
   #nav a {
     text-decoration: none;
   	font-size: 16px;
+  	/* line-height: 1.3em; */
+    color: white;
+  }
+
+  #bio-page {
+    display: flex;
+    justify-content:space-around;
+    flex-flow: wrap;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    height: 100vh;
+    background-color: black;
+  }
+
+  .bio-div{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    flex-wrap: wrap;
+  }
+
+  .bio-div2{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+  }
+
+  #bio-page img {
+    width: 20%;
+    position: relative;
+  }
+
+  #bio-page p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+  }
+
+
+  .fun-carousel-container {
+    display: flex;
+    justify-content: space-around;
+  	width: 250px;
+    height: 250px;
+    position: relative;
+    top: 8%;
+  }
+  .fun-button {
+  	align-self: center;
+  	background: #FFFFFF;
+    padding: 10px;
+    margin: 5px;
+  	border-radius: 50%;
+  	text-align: center;
+  }
+
+  .fun-img-box img {
+  	display: none;
+    border: 3px solid white;
+
+  }
+}
+
+@media screen and (max-width: 550px) {
+
+  #start {
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    background: black;
+    font-size: 60px;
+  }
+
+  #start p {
+    text-decoration: none;
+    position: relative;
+    top: 37%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 12px;
+    color: white;
+  }
+
+  .click-button1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 36%;
+    font-size: 14px;
+  }
+
+  .click-button2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 36%;
+    font-size: 14px;
+  }
+
+  #start a {
+    text-decoration: none;
+    position: relative;
+    top: 35%;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+  }
+
+
+  #nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    padding: 0;
+    background-color: black;
+    color: black;
+  }
+
+  #nav ul {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 6px;
+  }
+
+  #nav li {
+    width: 480px;
+    margin: 0;
+    padding: 6px;
+    display: flex;
+    justify-content: space-around;
+    gap: 11px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    letter-spacing: 1px;
+  }
+
+  #nav a {
+    text-decoration: none;
+  	font-size: 18px;
+  	/* line-height: 1.3em; */
+    color: white;
+  }
+
+  #bio-page {
+    display: flex;
+    justify-content:space-around;
+    flex-flow: wrap;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    height: 100vh;
+    background-color: black;
+  }
+
+  .bio-div{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    flex-wrap: wrap;
+  }
+
+  .bio-div2{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+  }
+
+  #bio-page img {
+    width: 35%;
+    position: relative;
+  }
+
+  #bio-page p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+  }
+
+
+  .fun-carousel-container {
+    display: flex;
+    justify-content: space-around;
+  	width: 250px;
+    height: 250px;
+    position: relative;
+    top: 8%;
+  }
+  .fun-button {
+  	align-self: center;
+  	background: #FFFFFF;
+    padding: 10px;
+    margin: 5px;
+  	border-radius: 50%;
+  	text-align: center;
+  }
+
+  .fun-img-box img {
+  	display: none;
+    border: 3px solid white;
+
+  }
+}
+
+@media screen and (max-width: 390px) {
+
+  #start {
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    background: black;
+    font-size: 60px;
+  }
+
+  #start p {
+    text-decoration: none;
+    position: relative;
+    top: 37%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 12px;
+    color: white;
+  }
+
+  .click-button1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 36%;
+    font-size: 14px;
+  }
+
+  .click-button2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 36%;
+    font-size: 14px;
+  }
+
+  #start a {
+    text-decoration: none;
+    position: relative;
+    top: 35%;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+  }
+
+
+  #nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    padding: 0;
+    background-color: black;
+    color: black;
+  }
+
+  #nav ul {
+    display: inline-block;
+    list-style: none;
+    margin: 2px;
+    padding: 0;
+  }
+
+  #nav li {
+    width: 380px;
+    margin: 0;
+    padding: 6px;
+    display: flex;
+    justify-content: space-around;
+    gap: 11px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    letter-spacing: 1px;
+  }
+
+  #nav a {
+    text-decoration: none;
+  	font-size: 18px;
   	/* line-height: 1.3em; */
     color: white;
   }
