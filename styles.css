@@ -305,7 +305,21 @@ body {
   font-size: 18px;
 }
 
+.footer {
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  gap: 0.5vw;
+  bottom: 0;
+  right: 1vw;
+}
+
+.footer img {
+  width: 2.5vw;
+
+}
 /* mobile - samsung / iphone / other tablets working for now*/
+
 @media screen and (max-width: 400px) {
 
   #start {
