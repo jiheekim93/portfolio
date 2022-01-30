@@ -294,8 +294,8 @@ body {
 .fun-text {
   display: flex;
   justify-content: space-around;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: 20vw;
+  padding-right: 20vw;
   margin: 0;
   color: white;
   position: relative;
@@ -312,6 +312,8 @@ body {
   gap: 0.5vw;
   bottom: 0;
   right: 1vw;
+  z-index: 1;
+
 }
 
 .footer img {
