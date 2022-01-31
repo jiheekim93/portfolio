@@ -47,7 +47,7 @@ const $fun = () => {
 
 const $funText =() => {
   $funTextDiv = $('<div>').addClass('fun-text')
-  $funTextBox = $('<p>').text('These are part of my 3D graphic design portfolio! You can click the button to see more works and feel free to click the link to check out my graphic design portfolio website')
+  $funTextBox = $('<p>').text('These are part of my 3D graphic design portfolio! You can click the button to see more works and feel free to click the links to check out my graphic design portfolio websites and more.')
 
   $funTextDiv.append($funTextBox)
   $('#fun-page').append($funTextDiv)

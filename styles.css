@@ -615,17 +615,16 @@ footer img {
 
   }
 
-  .footer {
+  footer {
     position: fixed;
-    display: flex;
-    justify-content: space-around;
-    gap: 1vw;
+    gap: 0.5vw;
     bottom: 0;
-    right: 5vw;
+    right: 1vw;
     z-index: 1;
-
   }
-  .footer img {
-    width: 8vw;
+
+  footer img {
+    width: 6vw;
+  }
   }
 }
