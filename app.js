@@ -88,10 +88,7 @@ const $project = () => {
   $('<p>').text('3rd project - Users Data Base (click to view)').appendTo('.project-three')
   //
 
-
 }
-
-
 
 $(() => {
   $myResumePhoto()
