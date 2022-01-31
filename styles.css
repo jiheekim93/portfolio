@@ -131,23 +131,23 @@ body {
 
 
 #project-page img {
-  width: 30vw;
+  width: 29vw;
   z-index: 0;
   border: 5px grey solid;
   border-radius: 10px;
   cursor: pointer;
-
 }
 
 #project-page img:hover {
   transition-duration: 0.5s;
+  width: 31vw;
   filter: grayscale(100%);
   z-index: 0;
   border: 5px grey solid;
   border-radius: 10px;
   cursor: pointer;
-
 }
+
 #project-page p{
   width: 25vw;
   z-index: 0;
@@ -162,8 +162,8 @@ body {
 
 #project-page a{
   text-decoration: none;
-
 }
+
 #resume-page {
   display: flex;
   justify-content: center;
@@ -188,7 +188,25 @@ body {
 }
 
 .resume-img {
-  width: 35vw;
+  border: white 1px solid;
+  position: relative;
+  top: 3vw;
+  width: 29vw;
+}
+
+.resume-img:hover {
+  position: relative;
+  top: 2vw;
+  width: 31vw;
+  transition-duration: 0.5s;
+}
+
+.link p {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
 
 }
 
@@ -212,8 +230,7 @@ body {
 
 #bio-page {
   display: flex;
-  justify-content:space-around;
-  flex-flow: wrap;
+  justify-content:center;
   flex-wrap: wrap;
   align-items: center;
   align-content: center;
@@ -221,6 +238,7 @@ body {
   height: 100vh;
   background-color: black;
   overflow: hidden;
+  gap:10px
 }
 
 .bio-div{
@@ -254,7 +272,7 @@ body {
   width: 30vh;
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 #fun-page {
@@ -421,9 +439,11 @@ footer img {
   	/* line-height: 1.3em; */
     color: white;
   }
+
   #content-container {
     height: 100vh;
   }
+
   #bio-page {
     display: flex;
     justify-content:space-around;
@@ -463,7 +483,7 @@ footer img {
   #bio-page p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .resume {
@@ -478,9 +498,15 @@ footer img {
   }
 
   .resume-img {
-    width: 90vw;
+    width: 88vw;
   }
 
+  .resume-img:hover {
+    position: relative;
+    top: 2vw;
+    width: 90vw;
+    transition-duration: 0.5s;
+  }
   #fun-page {
     display: flex;
     justify-content: space-around;
@@ -561,8 +587,19 @@ footer img {
     border: 5px grey solid;
     border-radius: 10px;
     cursor: pointer;
+  }
+
+  #project-page img:hover {
+    transition-duration: 0.5s;
+    width: 52vw;
+    filter: grayscale(100%);
+    z-index: 0;
+    border: 5px grey solid;
+    border-radius: 10px;
+    cursor: pointer;
 
   }
+
 
   #project-page p {
     width: 50vw;
@@ -584,7 +621,7 @@ footer img {
     justify-content: space-around;
     gap: 1vw;
     bottom: 0;
-    right: 6vw;
+    right: 5vw;
     z-index: 1;
 
   }

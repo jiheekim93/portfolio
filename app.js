@@ -12,6 +12,8 @@ const $myResume = () => {
   $('<a href = "https://www.google.com" target="_blank">').addClass('link').appendTo('#resume-page')
   $('<img src= "jihee-resume.png">').addClass('resume-img').appendTo('.link')
 
+  $('<p>').text('Click to view').appendTo('.link')
+
   $('body').append('#resume-page')
   // $('#resume-page').append('.resume-text')
   // $resumeTextBox.append('.link')
@@ -45,7 +47,7 @@ const $fun = () => {
 
 const $funText =() => {
   $funTextDiv = $('<div>').addClass('fun-text')
-  $funTextBox = $('<p>').text('Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')
+  $funTextBox = $('<p>').text('These are part of my 3D graphic design portfolio! You can click the button to see more works and feel free to click the link to check out my graphic design portfolio website')
 
   $funTextDiv.append($funTextBox)
   $('#fun-page').append($funTextDiv)
@@ -54,11 +56,11 @@ const $funText =() => {
 
 const $bio = () => {
   let $bioDiv = $('<div>').addClass('bio-div')
-  let $bioText = $('<p>').text('Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ').css('color', 'white')
+  let $bioText = $('<p>').text(`Hi, my name is Jihee Kim, a web developer based in New York. Before I started software engineering, I was into 3d graphic design -you can see them in 'fun' page! I enjoy both Front-end and Back-end web development. `).css('color', 'white')
   let $bioPhoto = $('<img src = "jihee1.jpg">').addClass('jihee-one')
 
   let $bioDiv2 = $('<div>').addClass('bio-div2')
-  let $bioText1 = $('<p>').text('Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ').css('color', 'white')
+  let $bioText1 = $('<p>').text(`I'm always to open to learn new skills and improve on such. I'm in love with music, dance choreography, and cooking. You can reach me at Linkedin & email!`).css('color', 'white')
   let $bioPhoto1 = $('<img src = "jihee2.jpg">').addClass('jihee-one')
 
   $bioDiv.append($bioPhoto)
