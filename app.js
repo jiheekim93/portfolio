@@ -68,11 +68,11 @@ const $funText =() => {
 ///all 'about'/bio contents are here///
 const $bio = () => {
   let $bioDiv = $('<div>').addClass('bio-div')
-  let $bioText = $('<p>').text(`Hi, my name is Jihee Kim, a web developer based in New York. Before I started software engineering, I was into 3d graphic design -you can see them in 'fun' page! I enjoy both Front-end and Back-end web development. `).css('color', 'white')
+  let $bioText = $('<p>').text(`Hi, my name is Jihee Kim, a web developer based in New York. Before I started software engineering, I majored in 3D graphic design - you can see some of my works in the 'fun' page! In addition, I enjoy spending my time listening to music, reading novels and cooking.`).css('color', 'white')
   let $bioPhoto = $('<img src = "jihee1.jpg">').addClass('jihee-one')
 
   let $bioDiv2 = $('<div>').addClass('bio-div2')
-  let $bioText1 = $('<p>').text(`I'm always to open to learn new skills and improve on such. I'm in love with music, dance choreography, and cooking. You can reach me at Linkedin & email!`).css('color', 'white')
+  let $bioText1 = $('<p>').text(`I enjoy working on both Front-end and Back-end web development. I hope to develop the necessary skills to excel in this field. I'm always to open to learning new skills and improving on such. You can reach me at Linkedin!`).css('color', 'white')
   let $bioPhoto1 = $('<img src = "jihee2.jpg">').addClass('jihee-one')
 
   $bioDiv.append($bioPhoto)
