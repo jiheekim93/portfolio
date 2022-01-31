@@ -1,3 +1,7 @@
+
+
+//////all my resume contents////////
+
 const $myResumePhoto = () => {
   let $resumeDiv = $('<div>').addClass('resume')
   let $img1 = $('<img src = "jihee.jpg">').addClass('myself').css('width', '340px').css('margin', '15px')
@@ -18,7 +22,10 @@ const $myResume = () => {
   // $('#resume-page').append('.resume-text')
   // $resumeTextBox.append('.link')
 }
+//////////////////////////////////////
 
+
+//all my 3D graphic design carousel//
 const $fun = () => {
   let currentImgIndex = 0;
   let currentImgBox = $('.fun-img-box').children().length - 1
@@ -54,6 +61,11 @@ const $funText =() => {
   $('body').append($funTextDiv)
 }
 
+////////////////////////////////////////////
+
+
+
+///all 'about'/bio contents are here///
 const $bio = () => {
   let $bioDiv = $('<div>').addClass('bio-div')
   let $bioText = $('<p>').text(`Hi, my name is Jihee Kim, a web developer based in New York. Before I started software engineering, I was into 3d graphic design -you can see them in 'fun' page! I enjoy both Front-end and Back-end web development. `).css('color', 'white')
@@ -71,7 +83,12 @@ const $bio = () => {
   $('#bio-page').append($bioDiv2)
 
 }
+//////////////////////////////////////////////
 
+
+
+///all mock-up projects are here///////
+//all the photos are owned by me (photos of myself) and the mock-up images are all copyright free from unsplash.com. Eventually my future projects will be up here.
 const $project = () => {
   $('<a href = "#">').addClass('project-one').appendTo('#project-page')
   $('<img src= "color-picker.jpg">').addClass('color-picker').appendTo('.project-one')
@@ -86,9 +103,10 @@ const $project = () => {
   $('<p>').text('1st project - COLOR PICKER (RGB) (click to view)').appendTo('.project-one')
   $('<p>').text('2nd project - Field Lights Theme (click to view)').appendTo('.project-two')
   $('<p>').text('3rd project - Users Data Base (click to view)').appendTo('.project-three')
-  //
 
 }
+///////////////////////////////////////
+
 
 $(() => {
   $myResumePhoto()

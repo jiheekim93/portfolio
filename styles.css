@@ -250,6 +250,7 @@ body {
   align-items: flex-start;
   flex-flow: wrap;
   flex-wrap: wrap;
+
 }
 
 .bio-div2{
@@ -464,6 +465,8 @@ footer img {
     justify-content: space-around;
     flex-flow: wrap;
     flex-wrap: wrap;
+    margin-left: 10px;
+
   }
 
   .bio-div2{
@@ -474,6 +477,8 @@ footer img {
     flex-flow: wrap;
     flex-wrap: wrap;
     align-items: flex-start;
+    margin-right: 10px;
+
   }
 
   #bio-page img {
