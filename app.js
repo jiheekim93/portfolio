@@ -8,16 +8,13 @@ const $myResumePhoto = () => {
 }
 
 const $myResume = () => {
-  let $resumeTextBox = $('<div>').addClass('resume-text')
-  // let $resumeHeading = $('<h3>').text('My Experience').css('color', 'white')
-  let $resumeText = $('<img src= "jihee-resume.png">')
+  // $('<div>').addClass('resume-text')
+  $('<a href = "https://www.google.com" target="_blank">').addClass('link').appendTo('#resume-page')
+  $('<img src= "jihee-resume.png">').addClass('resume-img').appendTo('.link')
 
-
-
-  $('body').append($resumeTextBox)
-  // $('.resume-text').append($resumeHeading)
-  $('#resume-page').append($resumeTextBox)
-  $resumeTextBox.append($resumeText)
+  $('body').append('#resume-page')
+  // $('#resume-page').append('.resume-text')
+  // $resumeTextBox.append('.link')
 }
 
 const $fun = () => {
@@ -74,20 +71,20 @@ const $bio = () => {
 }
 
 const $project = () => {
-  $projectDiv = $('<div>').addClass('project-div').appendTo('body')
-  $projectCon1 = $('<div>').addClass('project-contaier1').appendTo('.project-div')
-  $projectCon2 = $('<div>').addClass('project-contaier2').appendTo('.project-div')
-  $projectCon3 = $('<div>').addClass('project-contaier3').appendTo('.project-div')
+  $('<a href = "#">').addClass('project-one').appendTo('#project-page')
+  $('<img src= "color-picker.jpg">').addClass('color-picker').appendTo('.project-one')
 
-  $project1 = $('<img src = "color-picker.jpg">').addClass('color-picker').appendTo('.project-contaier1')
-  $project2 = $('<img src = "users-data-base.jpg">').addClass('data-base').appendTo('.project-contaier2')
-  $project3 = $('<img src = "field-lights-theme.jpg">').addClass('field-lights').appendTo('.project-contaier3')
+  $('<a href = "#">').addClass('project-two').appendTo('#project-page')
+  $('<img src= "field-lights-theme.jpg">').addClass('field-lights').appendTo('.project-two')
+  $('.field-lights').hover().text('click')
 
-  $projectText1 = $('<p>').text('Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.').appendTo('.project-contaier1')
-  $projectText2 = $('<p>').text('Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.').appendTo('.project-contaier2')
-  $projectText3 = $('<p>').text('Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.').appendTo('.project-contaier3')
+  $('<a href = "#">').addClass('project-three').appendTo('#project-page')
+  $('<img src= "users-data-base.jpg">').addClass('users-data').appendTo('.project-three')
 
-  $('#project-page').append($projectDiv)
+  $('<p>').text('1st project - COLOR PICKER (RGB) (click to view)').appendTo('.project-one')
+  $('<p>').text('2nd project - Field Lights Theme (click to view)').appendTo('.project-two')
+  $('<p>').text('3rd project - Users Data Base (click to view)').appendTo('.project-three')
+  //
 
 
 }
