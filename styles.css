@@ -660,7 +660,7 @@ body {
     font-size: 12px;
   }
 
-
+/* 
   #fun-page {
     display: flex;
     justify-content: center;
@@ -690,7 +690,7 @@ body {
   .fun-img-box img {
   	display: none;
     border: 3px solid white;
-  }
+  } */
 
   .footer {
     position: fixed;
