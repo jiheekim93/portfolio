@@ -207,7 +207,8 @@ body {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
-
+  position: relative;
+  top: 3vw;
 }
 
 .resume{

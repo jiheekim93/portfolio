@@ -13,7 +13,7 @@ const $myResumePhoto = () => {
 
 const $myResume = () => {
   // $('<div>').addClass('resume-text')
-  $('<a href = "https://www.google.com" target="_blank">').addClass('link').appendTo('#resume-page')
+  $('<a href = "https://docs.google.com/document/d/1EYNMLBmyHFsMONbmhgMmOb08tKk0KsTbWGH-MV58Tn4/edit#heading=h.5rf9wr4r3no2">').addClass('link').appendTo('#resume-page')
   $('<img src= "jihee-resume.png">').addClass('resume-img').appendTo('.link')
 
   $('<p>').text('Click to view').appendTo('.link')
