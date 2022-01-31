@@ -652,7 +652,7 @@ body {
   }
 
 
-  #fun-page {
+  /* #fun-page {
     display: flex;
     justify-content: space-around;
     flex-flow: wrap;
@@ -682,7 +682,7 @@ body {
   .fun-img-box img {
   	display: none;
     border: 3px solid white;
-  }
+  } */
 
   .footer {
     position: fixed;
