@@ -10,7 +10,7 @@ const $myResumePhoto = () => {
 const $myResume = () => {
   let $resumeTextBox = $('<div>').addClass('resume-text')
   let $resumeHeading = $('<h3>').text('My Experience').css('color', 'white')
-  let $resumeText = $('<p>').text('Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ').css('color', 'white')
+  let $resumeText = $('<img src= "jihee-resume.png">')
 
   $('body').append($resumeTextBox)
   $('.resume-text').append($resumeHeading)
