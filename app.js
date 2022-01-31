@@ -1,6 +1,6 @@
 const $myResumePhoto = () => {
   let $resumeDiv = $('<div>').addClass('resume')
-  let $img1 = $('<img src = "jihee.svg">').addClass('myself').css('width', '340px').css('margin', '15px')
+  let $img1 = $('<img src = "jihee.jpg">').addClass('myself').css('width', '340px').css('margin', '15px')
 
   $resumeDiv.append($img1)
   $('body').append($resumeDiv)
@@ -10,7 +10,7 @@ const $myResumePhoto = () => {
 const $myResume = () => {
   let $resumeTextBox = $('<div>').addClass('resume-text')
   // let $resumeHeading = $('<h3>').text('My Experience').css('color', 'white')
-  let $resumeText = $('<img src= "jihee-resume.png">')
+  let $resumeText = $('<img src= "jihee-resume.svg">')
 
   $('body').append($resumeTextBox)
   // $('.resume-text').append($resumeHeading)

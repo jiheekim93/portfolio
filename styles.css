@@ -1,6 +1,6 @@
-* {
+/* * {
   border: 1px red solid;
-}
+} */
 
 html {
   scroll-behavior: smooth;
@@ -596,7 +596,8 @@ body {
   }
   .resume-text {
     width: 100vmin;
-    image-resolution: snap;
+    image-resolution: from-image 300dpi;
+
   }
 
   .myself {
