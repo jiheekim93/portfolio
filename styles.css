@@ -454,6 +454,7 @@ footer img {
     flex-direction: row;
     height: 100vh;
     background-color: black;
+      gap:5px
   }
 
   .bio-div{
