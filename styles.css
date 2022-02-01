@@ -239,7 +239,7 @@ body {
   height: 100vh;
   background-color: black;
   overflow: hidden;
-  gap:10px
+  gap:10px;
 }
 
 .bio-div{
