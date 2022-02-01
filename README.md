@@ -1,4 +1,4 @@
-This is the first website that I have made.
+<b>Project: My website</b>
 
 WEBSITE LINK : https://www.jiheekim03.com
 
