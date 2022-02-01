@@ -293,6 +293,7 @@ body {
 	width: 60%;
   height: 65%;
   position: relative;
+
 }
 
 .fun-img-box {
@@ -300,11 +301,14 @@ body {
   justify-content: center;
 	background: #000000;
 	padding: 10px;
+
 }
 
 .fun-img-box img {
 	display: none;
-  border: 10px solid white;
+  border: 5px solid white;
+  border-radius: 10px;
+
 }
 
 .fun-img-box img:first-of-type {
