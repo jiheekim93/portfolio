@@ -1,4 +1,4 @@
-<b>Project: My website</b>
+<h1>Project: My website</h2>
 
 WEBSITE LINK : https://www.jiheekim03.com
 
