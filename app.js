@@ -38,6 +38,7 @@ const $fun = () => {
     } else {
       currentImgIndex = 0
     }
+    
   $('.fun-img-box').children().eq(currentImgIndex).css('display', 'block')
   })
   $('.previous').on('click',() => {
