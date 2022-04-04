@@ -2,26 +2,26 @@
 
 //////all my resume contents////////
 
-const $myResumePhoto = () => {
-  let $resumeDiv = $('<div>').addClass('resume')
-  let $img1 = $('<img src = "jihee.jpg">').addClass('myself').css('width', '340px').css('margin', '15px')
+// const $myResumePhoto = () => {
+//   let $resumeDiv = $('<div>').addClass('resume')
+//   let $img1 = $('<img src = "jihee.jpg">').addClass('myself').css('width', '340px').css('margin', '15px')
 
-  $resumeDiv.append($img1)
-  $('body').append($resumeDiv)
-  $('#resume-page').append($resumeDiv)
-}
+//   $resumeDiv.append($img1)
+//   $('body').append($resumeDiv)
+//   $('#resume-page').append($resumeDiv)
+// }
 
-const $myResume = () => {
-  // $('<div>').addClass('resume-text')
-  $('<a href = "https://docs.google.com/document/d/1EYNMLBmyHFsMONbmhgMmOb08tKk0KsTbWGH-MV58Tn4/edit#heading=h.5rf9wr4r3no2" target="_blank"> ').addClass('link').appendTo('#resume-page')
-  $('<img src= "jihee-resume.png">').addClass('resume-img').appendTo('.link')
+// const $myResume = () => {
+//   // $('<div>').addClass('resume-text')
+//   $('<a href = "https://docs.google.com/document/d/1EYNMLBmyHFsMONbmhgMmOb08tKk0KsTbWGH-MV58Tn4/edit#heading=h.5rf9wr4r3no2" target="_blank"> ').addClass('link').appendTo('#resume-page')
+//   $('<img src= "jihee-resume.png">').addClass('resume-img').appendTo('.link')
 
-  $('<p>').text('Click to view').appendTo('.link')
+//   $('<p>').text('Click to view').appendTo('.link')
 
-  $('body').append('#resume-page')
+  // $('body').append('#resume-page')
   // $('#resume-page').append('.resume-text')
   // $resumeTextBox.append('.link')
-}
+// }
 //////////////////////////////////////
 
 
@@ -53,14 +53,14 @@ const $fun = () => {
   })
 }
 
-const $funText =() => {
-  $funTextDiv = $('<div>').addClass('fun-text')
-  $funTextBox = $('<p>').text('These are part of my 3D graphic design portfolio! You can click the button to see more works and feel free to click the links to check out my graphic design portfolio websites and more.')
+// const $funText =() => {
+//   $funTextDiv = $('<div>').addClass('fun-text')
+//   $funTextBox = $('<p>').text('These are part of my 3D graphic design portfolio! You can click the button to see more works and feel free to click the links to check out my graphic design portfolio websites and more.')
 
-  $funTextDiv.append($funTextBox)
-  $('#fun-page').append($funTextDiv)
-  $('body').append($funTextDiv)
-}
+//   $funTextDiv.append($funTextBox)
+//   $('#fun-page').append($funTextDiv)
+//   $('body').append($funTextDiv)
+// }
 
 ////////////////////////////////////////////
 
@@ -90,30 +90,30 @@ const $bio = () => {
 
 ///all mock-up projects are here///////
 //all the photos are owned by me (photos of myself) and the mock-up images are all copyright free from unsplash.com. Eventually my future projects will be up here.
-const $project = () => {
-  $('<a href = "#">').addClass('project-one').appendTo('#project-page')
-  $('<img src= "color-picker.jpg">').addClass('color-picker').appendTo('.project-one')
+// const $project = () => {
+//   $('<a href = "#">').addClass('project-one').appendTo('#project-page')
+//   $('<img src= "https://i.imgur.com/TbrRWMh.png">').addClass('color-picker').appendTo('.project-one')
 
-  $('<a href = "#">').addClass('project-two').appendTo('#project-page')
-  $('<img src= "field-lights-theme.jpg">').addClass('field-lights').appendTo('.project-two')
-  $('.field-lights').hover().text('click')
+//   $('<a href = "#">').addClass('project-two').appendTo('#project-page')
+//   $('<video "https://i.imgur.com/qgUJAm6.mp4>').addClass('field-lights').appendTo('.project-two')
+//   $('.field-lights').hover().text('click')
 
-  $('<a href = "#">').addClass('project-three').appendTo('#project-page')
-  $('<img src= "users-data-base.jpg">').addClass('users-data').appendTo('.project-three')
+//   $('<a href = "#">').addClass('project-three').appendTo('#project-page')
+//   $('<img src= "users-data-base.jpg">').addClass('users-data').appendTo('.project-three')
 
-  $('<p>').text('1st project - COLOR PICKER (RGB) (click to view)').appendTo('.project-one')
-  $('<p>').text('2nd project - Field Lights Theme (click to view)').appendTo('.project-two')
-  $('<p>').text('3rd project - Users Data Base (click to view)').appendTo('.project-three')
+//   $('<p>').text('1st project - COLOR PICKER (RGB) (click to view)').appendTo('.project-one')
+//   $('<p>').text('2nd project - Field Lights Theme (click to view)').appendTo('.project-two')
+//   $('<p>').text('3rd project - Users Data Base (click to view)').appendTo('.project-three')
 
-}
+// }
 ///////////////////////////////////////
 
 
 $(() => {
-  $myResumePhoto()
-  $myResume()
-  $project()
+  // $myResumePhoto()
+  // $myResume()
+  // $project()
   $fun()
-  $funText()
+  // $funText()
   $bio()
 })
