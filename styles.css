@@ -134,6 +134,14 @@ body {
 }
 
 
+#project-page a {
+  text-decoration: underline;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+}
+
 #project-page img {
   width: 500px;
   z-index: 0;
@@ -176,33 +184,31 @@ body {
   margin-bottom: 16px;
 }
 
+#project-page button {
+  background-color: black;
+  border: white solid 0.2px;
+}
+
 
 #project-page p{
-  width: 400px;
+  width: 500px;
   z-index: 0;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
   color: white;
   text-align: center;
-  position: relative;
-  left: 2.5vw;
-
-  
+  /* position: relative;
+  left: 2.5vw; */
+  line-height: 1.5em;
 }
-
-
 
 #project-page a{
   text-decoration: none;
+  
 }
 
-
-
-
-
 #resume-page {
-  padding-top: 5vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -213,8 +219,34 @@ body {
   gap: 20vw;
 }
 
+
+.click-to-view {
+  position: relative;
+  bottom: 660px;
+  width: 450px;
+  height: 640px;
+  font-size: 2em;
+  font-weight: 400;
+  color: transparent;
+}
+
+.click-to-view:hover {
+  position: relative;
+  bottom: 660px;
+  width: 450px;
+  height: 640px;
+  transition-duration: 0.5s;
+  font-size: 2em;
+  font-weight: 500;
+  color: #000000;
+
+}
+.click-to-view p{
+  position: relative;
+  top: 270px;
+}
 .resume iframe{
-  display: flex;
+  margin-top: 15vh;
   width: 450px;
   height: 640px;
 }
@@ -236,6 +268,8 @@ body {
   gap: 30px;
   color: white;
   width: 300px;
+  position: relative;
+  bottom: 240px;
 }
 
 .skills i{
@@ -243,6 +277,7 @@ body {
   justify-content: center;
   gap: 10px;
   color: white;
+
 }
 
 .link p {
@@ -741,6 +776,8 @@ body {
     text-align: center;
   }
   .skills {
+    position: relative;
+    top: 50px;
     font-size: 30px;
     display: flex;
     flex-wrap: wrap;
@@ -756,6 +793,39 @@ body {
     gap: 10px;
     color: white;
   }
+  .click-to-view {
+    position: relative;
+    bottom: 600px;
+    width: 300px;
+    height: 640px;
+    font-size: 2em;
+    font-weight: 400;
+    color: transparent;
+  }
+  
+  .click-to-view:hover {
+    position: relative;
+    bottom: 600px;
+    width: 300px;
+    height: 640px;
+    color: black;
+    transition-duration: 0.5s;
+    font-size: 2em;
+    font-weight: 400;
+  }
+  .click-to-view p{
+    position: relative;
+    top: 310px;
+    
+  }
 
+  #project-page a {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    text-decoration: none;
+  }
+  
 }
 
